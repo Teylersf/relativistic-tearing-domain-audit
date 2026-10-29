@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:44:44.241418+00:00",
+  "source_DOI": "10.3847/1538-4357/ada28a",
+  "status": "independent_mathematical_review_complete_with_bounded_domain_qualification",
+  "scope": "Full supplied11page/149publisher-math-node reading plus main-scaling and separate Appendix algebra/asymptotic checks. No new source simulation, source program, field array or fresh official PDF binary obtained.",
+  "inputs": [
+    {
+      "filename": "supplied.pdf",
+      "bytes": 517337,
+      "sha256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6"
+    },
+    {
+      "filename": "journal-browser-math-tex.json",
+      "bytes": 39135,
+      "sha256": "91db428fd02ef93bb27f254821991e89405489a7953d624d1743c0d597af2c83"
+    },
+    {
+      "filename": "journal-display-equations.json",
+      "bytes": 37934,
+      "sha256": "649cacfc97a35b435067f3805f26d9c2a360992664ff679547ce27cb0d78cf39"
+    },
+    {
+      "filename": "source-editions-preflight.json",
+      "bytes": 13059,
+      "sha256": "15cc893475117e66fd731aa491bd4da6cb1eaf95f9c0e4d96b1802e304338d3a"
+    },
+    {
+      "filename": "edition-concordance.md",
+      "bytes": 9889,
+      "sha256": "0b4261ed8cc7adfcbe3f9321fc40db574d99843d614bad627add1f93800f6097"
+    },
+    {
+      "filename": "independent-main-review/verify_main_scalings.py",
+      "bytes": 7542,
+      "sha256": "d90d1a36ac274d5582abcaf14db6cc27ce18ed4222141137f03cded82875d49d"
+    },
+    {
+      "filename": "independent-main-review/main-scaling-checks.json",
+      "bytes": 14281,
+      "sha256": "7c3b937c8486522d42e2d44fc0fdcf9821ba797472ccec7d44209b4d39bf7d12"
+    },
+    {
+      "filename": "independent-main-review/main-scaling-review.md",
+      "bytes": 8778,
+      "sha256": "b22fd8940e32c9f6bdd4f39b5a60d435fc1f776316c9130e909d817e3ccc978d"
+    },
+    {
+      "filename": "check_appendix_independently.py",
+      "bytes": 8182,
+      "sha256": "e4df0ed58cf267e0526b2aa051c4115b06c31386c3b8455b8fa786c9faed1a34"
+    },
+    {
+      "filename": "independent-appendix-checks.json",
+      "bytes": 6895,
+      "sha256": "1931d26a6f17fb5d2fb49532d023dcdea4481304e4aca8e679b7fd569dcee010"
+    },
+    {
+      "filename": "independent-appendix-review.md",
+      "bytes": 9255,
+      "sha256": "7c8fd9e7853a35f84261a408ed207255c310ce631a915e1b2710049185a2de1b"
+    }
+  ],
+  "reading": {
+    "all_supplied_pages_read_and_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "all149_publisher_math_nodes_read": true,
+    "all78_numbered_display_formulas_compared_to_supplied_PDF": true,
+    "substantive_mathematical_edition_difference_identified": false,
+    "publisher_human_check_resolved_for_HTML": true,
+    "fresh_official_PDF_byte_identity_verified": false
+  },
+  "positive_results": [
+    "MainEqs7-24: tearing onset, initial charge-starvation comparison, matched amplitudes, constant-flux exponents and one-dimensional spectra reproduce their stated scalings.",
+    "A consistent per-species pair-density convention reproduces both VA=c/sqrt(1+2/sigma) and d_rel\u00b2=wmc\u00b2/(8pi*n0*e\u00b2).",
+    "Harris n1 charge parameter is constant across its tearing-mediated range; its onset inequality suffices to exclude later MHD-scale charge starvation under the model.",
+    "Separate Appendix review finds A1/A2toA3/A5, A7/A8/A15, A10/A12/A13/A14, A15integral, A30/A31/A33, A35prefactor, A36connection and A20/A45exponents consistent.",
+    "The formal beta_s<<1 and beta_s>>1 extensions are explicitly marked as analogies rather than physical superluminal sound-speed claims."
+  ],
+  "bounded_findings": [
+    {
+      "id": "localized_secondary_charge_window",
+      "confidence": "high for declared model algebra; no actual astrophysical parameter inference",
+      "type": "continuation-domain qualification, not a refuted onset inequality",
+      "source_locators": "Eqs18/20 and21-25 p4; abstractp1 and conclusionp5 Eqs27-32",
+      "derivation": "LetR=L/d. Atlocalizedn2tearingonset sigma<<R^(5/7), but chi(a)=sigma*R^(-2/3)*(a/d)^(-1/3), so a_star/d=sigma\u00b3/R\u00b2. Avoidance above d additionally needs sigma<R^(2/3).",
+      "formal_interval": "R^(2/3)<<sigma<<R^(5/7) permits tearing first then charge starvation before d; sigma=R^p,2/3<p<5/7 gives a_star/d->infinity and a_star/a_t->0.",
+      "source_qualification_credited": "Paragraph afterEq25already expects a_star<d for astrophysical systems and explicitly conditions its negligible-starvation statement on that expectation.",
+      "recommended_scope": "Restate extra condition when making broader charge-nonessential claims; belowa_star the continuing k^-8/3 phenomenology is not justified by the same model. Do not call Eq18orEq25wrong.",
+      "physical_PIC_or_observed_reconnection_result_refuted": false
+    },
+    {
+      "id": "negative_hypergeometric_argument_prose",
+      "confidence": "high for the printed variable definition",
+      "type": "minor wording/argument-magnitude clarification",
+      "source_locators": "AppendixA5p9, z=-beta_s\u00b2xi\u00b2/lambda\u00b2 and the prose referring to z>>1",
+      "finding": "For realxi, physicalz<0; large-argument wording should mean abs(z)>>1. Displayed(-z)connection formulas use the correct branch.",
+      "leading_formula_error_demonstrated": false
+    },
+    {
+      "id": "asymptotic_uniformity",
+      "type": "quantitative-accuracy limitation, not a demonstrated core error",
+      "source_locators": "A7-A16/A23-A25 andA35-A45 pp6-10",
+      "finding": "Use strict overlap lambda<<beta_s\u00b2*(d/a), control alpha*log(cutoff) in logarithmic expansions, and do not treat a finite-beta asymptotic pole as an exact eigenvalue. Usual matched limits satisfy the relevant ordering; fastest scalings survive."
+    }
+  ],
+  "reproducible_checks": {
+    "main": {
+      "method": "ExactFractionexponents with24formal logarithmic examples",
+      "profile_classes": 2,
+      "all_pass": true
+    },
+    "appendix": {
+      "method": "Separate assistant-worker exact rational and80digitmpmath checks, reviewed by this agent",
+      "exact_fraction_controls": {
+        "A1_A2_to_A3_operator_derivative": 36,
+        "A30_to_A31_change_of_variables": 36,
+        "A8_A15_solve_A7": 36
+      },
+      "direct_A15_integrals": 6,
+      "A10_A12_comparisons": 4,
+      "hypergeometric_connection_comparisons": 16,
+      "maximum_A36_relative_difference": "4.2168791772922092897e-81",
+      "full_A5_eigenmode_solved": false
+    }
+  },
+  "not_promoted_as_errors": [
+    "Physical versus velocity-normalized b0 notation requires care; present exponent ratios cancel it, and no definite physical-normalization error is established.",
+    "Small Thomson optical depth is not itself a cooling-time calculation; this review has no supplied astrophysical cooling parameter set to refute.",
+    "No claim that omitted joint-limit uniformity destroys a standard fixed-parameter FKR or large-beta result."
+  ],
+  "verdict": "Core displayed scaling and matching mathematics checks positively. The localized-profile continuation condition supports a narrow domain clarification/extension, not a claim that the tearing model or actual astrophysical heating/reconnection is disproved. No correction publication is presumed from this audit alone.",
+  "new_PIC_or_MHD_simulations": 0,
+  "source_author_contact": false,
+  "new_paper_authored": false,
+  "publication_or_Git_mutation": false,
+  "independent_human_peer_review_claimed": false
+}

@@ -1,0 +1,4 @@
+m,n,log10_R,log10_sigma_tilde,sigma_power_of_R,log10_x_t,log10_x_ch_unmodified,log10_C_at_onset,log10_C_at_d_if_continued,log10_x_star_if_localized,post_tearing_branch_initially_below_current_threshold,regime_under_unity_prefactors,log10_x_star_over_x_t,log10_sigma_over_R_two_thirds,log10_R_five_sevenths_over_sigma,interpretation
+1,2,42,29,29/42,6,16/3,-1,1,3,True,localized_tearing_first_secondary_crossing_above_d,-3,1,1,"Formal exponent witness, not an astrophysical measurement or complete physical admissibility claim."
+2,2,84,58,29/42,12,32/3,-2,2,6,True,localized_tearing_first_secondary_crossing_above_d,-6,2,2,"Formal exponent witness, not an astrophysical measurement or complete physical admissibility claim."
+3,2,126,87,29/42,18,16,-3,3,9,True,localized_tearing_first_secondary_crossing_above_d,-9,3,3,"Formal exponent witness, not an astrophysical measurement or complete physical admissibility claim."

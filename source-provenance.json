@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "title": "Scale ordering in localized tearing-mediated relativistic turbulence",
+  "canonical_author": "Taylor Kalin",
+  "source_target": {
+    "title": "Tearing-mediated AlfvÃ©nic Turbulence in a Relativistic Plasma",
+    "authors": [
+      {
+        "name": "Stanislav Boldyrev",
+        "ORCID": "0000-0001-6252-5169"
+      },
+      {
+        "name": "Nuno F. Loureiro",
+        "ORCID": "0000-0001-9755-6563"
+      }
+    ],
+    "DOI": "10.3847/1538-4357/ada28a",
+    "journal": "The Astrophysical Journal",
+    "volume": "979",
+    "issue": "2",
+    "article_number": "232",
+    "pages": 11,
+    "received": "2024-11-11",
+    "revised": "2024-12-18",
+    "accepted": "2024-12-19",
+    "published_online": "2025-01-29",
+    "issue_date": "2025-02-01"
+  },
+  "source_inputs": [
+    {
+      "filename": "supplied.pdf",
+      "bytes": 517337,
+      "sha256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6"
+    },
+    {
+      "filename": "journal-browser-math-tex.json",
+      "bytes": 39135,
+      "sha256": "91db428fd02ef93bb27f254821991e89405489a7953d624d1743c0d597af2c83"
+    }
+  ],
+  "supplied_edition": "Supplied journal-formatted 11-page article; mathematical displays independently compared with human-cleared publisher HTML.",
+  "fresh_publisher_PDF_byte_identity_verified": false,
+  "target_arxiv_id_established": false,
+  "publisher_article_URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ada28a",
+  "publisher_math_extraction_semantics": "149 browser math/tex nodes,78 numbered displays; not an author-source TeX archive.",
+  "source_PDF_and_publisher_full_text_bundled": false,
+  "producer_or_portable_verifiers_rehash_missing_source_bytes": false,
+  "source_preflight_original": {
+    "path": "audit/source-editions-preflight-original.json",
+    "sha256": "15cc893475117e66fd731aa491bd4da6cb1eaf95f9c0e4d96b1802e304338d3a"
+  },
+  "scientific_assessment": "qualified_or_inconclusive_findings; no demonstrated core algebraic error",
+  "source_caveat": "The paragraph after Eq. (25), p. 4, already expects a_star<d_rel in astrophysical systems and conditions its negligible-starvation statement on that expectation.",
+  "limit_distinction": "Fixed sigma_tilde and growing R gives x_star->0. The formal intermediate family is correlated double scaling, not a contradiction of the fixed-parameter expectation.",
+  "physical_realization": "Unknown; finite prefactors, density/enthalpy feedback, kinetic/radiative damping and observational parameters are not solved."
+}

@@ -1,0 +1,1 @@
+{"status": "pass", "exact_groups": {"A1_A2_to_A3_operator_derivative": 36, "A30_to_A31_change_of_variables": 36, "A8_A15_solve_A7": 36}, "A15_integrals": 6, "A36_cases": 16, "max_A36_error": "4.2168791772922092897e-81", "receipt_sha256": "40f4fc10abd5c5112a672f3e5f1bb59d6f6a40ee5f1265d8f15371413509ac0f"}

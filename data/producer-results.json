@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "title": "Scale ordering in localized tearing-mediated relativistic turbulence",
+  "author": "Taylor Kalin",
+  "scientific_assessment": "qualified_or_inconclusive_findings; source-specific domain clarification, no demonstrated core algebra error",
+  "producer_sha256": "92fc6316142e9ee23d42be337ac57c2b9443f91a6e7bed9c97444a91e8330953",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "exact_exponent_profiles": [
+    {
+      "n": 1,
+      "onset_R_exponent": "1/9",
+      "post_amplitude_x_exponent": "1",
+      "one_dimensional_spectrum_exponent": "-3",
+      "post_charge_x_exponent": "0",
+      "onset_sigma_threshold_R_exponent": "2/3"
+    },
+    {
+      "n": 2,
+      "onset_R_exponent": "1/7",
+      "post_amplitude_x_exponent": "5/6",
+      "one_dimensional_spectrum_exponent": "-8/3",
+      "post_charge_x_exponent": "-1/3",
+      "onset_sigma_threshold_R_exponent": "5/7"
+    }
+  ],
+  "finite_log_grid": {
+    "log10_R": [
+      3,
+      6,
+      12,
+      30,
+      42,
+      84,
+      126,
+      210
+    ],
+    "sigma_R_powers": [
+      "-1/10",
+      "0",
+      "1/3",
+      "3/5",
+      "2/3",
+      "29/42",
+      "5/7",
+      "4/5",
+      "1"
+    ],
+    "cases": 144,
+    "regime_counts": {
+      "Harris_tearing_first_no_post_tearing_crossing": 32,
+      "coincident_initial_thresholds_no_scale_separation": 16,
+      "initial_charge_crossing_before_tearing_onset": 48,
+      "localized_tearing_first_secondary_crossing_above_d": 8,
+      "localized_tearing_first_secondary_crossing_at_d": 8,
+      "localized_tearing_first_secondary_crossing_below_d": 32
+    }
+  },
+  "transition_equality_cases": 24,
+  "formal_witnesses": [
+    {
+      "m": 1,
+      "n": 2,
+      "log10_R": "42",
+      "log10_sigma_tilde": "29",
+      "sigma_power_of_R": "29/42",
+      "log10_x_t": "6",
+      "log10_x_ch_unmodified": "16/3",
+      "log10_C_at_onset": "-1",
+      "log10_C_at_d_if_continued": "1",
+      "log10_x_star_if_localized": "3",
+      "post_tearing_branch_initially_below_current_threshold": true,
+      "regime_under_unity_prefactors": "localized_tearing_first_secondary_crossing_above_d",
+      "log10_x_star_over_x_t": -3,
+      "log10_sigma_over_R_two_thirds": 1,
+      "log10_R_five_sevenths_over_sigma": 1,
+      "interpretation": "Formal exponent witness, not an astrophysical measurement or complete physical admissibility claim."
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "log10_R": "84",
+      "log10_sigma_tilde": "58",
+      "sigma_power_of_R": "29/42",
+      "log10_x_t": "12",
+      "log10_x_ch_unmodified": "32/3",
+      "log10_C_at_onset": "-2",
+      "log10_C_at_d_if_continued": "2",
+      "log10_x_star_if_localized": "6",
+      "post_tearing_branch_initially_below_current_threshold": true,
+      "regime_under_unity_prefactors": "localized_tearing_first_secondary_crossing_above_d",
+      "log10_x_star_over_x_t": -6,
+      "log10_sigma_over_R_two_thirds": 2,
+      "log10_R_five_sevenths_over_sigma": 2,
+      "interpretation": "Formal exponent witness, not an astrophysical measurement or complete physical admissibility claim."
+    },
+    {
+      "m": 3,
+      "n": 2,
+      "log10_R": "126",
+      "log10_sigma_tilde": "87",
+      "sigma_power_of_R": "29/42",
+      "log10_x_t": "18",
+      "log10_x_ch_unmodified": "16",
+      "log10_C_at_onset": "-3",
+      "log10_C_at_d_if_continued": "3",
+      "log10_x_star_if_localized": "9",
+      "post_tearing_branch_initially_below_current_threshold": true,
+      "regime_under_unity_prefactors": "localized_tearing_first_secondary_crossing_above_d",
+      "log10_x_star_over_x_t": -9,
+      "log10_sigma_over_R_two_thirds": 3,
+      "log10_R_five_sevenths_over_sigma": 3,
+      "interpretation": "Formal exponent witness, not an astrophysical measurement or complete physical admissibility claim."
+    }
+  ],
+  "figure_trajectory_controls": [
+    {
+      "n": 2,
+      "log10_R": "42",
+      "log10_sigma_tilde": "26",
+      "sigma_power_of_R": "13/21",
+      "log10_x_t": "6",
+      "log10_x_ch_unmodified": "10/3",
+      "log10_C_at_onset": "-4",
+      "log10_C_at_d_if_continued": "-2",
+      "log10_x_star_if_localized": "-6",
+      "post_tearing_branch_initially_below_current_threshold": true,
+      "regime_under_unity_prefactors": "localized_tearing_first_secondary_crossing_below_d"
+    },
+    {
+      "n": 2,
+      "log10_R": "42",
+      "log10_sigma_tilde": "29",
+      "sigma_power_of_R": "29/42",
+      "log10_x_t": "6",
+      "log10_x_ch_unmodified": "16/3",
+      "log10_C_at_onset": "-1",
+      "log10_C_at_d_if_continued": "1",
+      "log10_x_star_if_localized": "3",
+      "post_tearing_branch_initially_below_current_threshold": true,
+      "regime_under_unity_prefactors": "localized_tearing_first_secondary_crossing_above_d"
+    },
+    {
+      "n": 1,
+      "log10_R": "42",
+      "log10_sigma_tilde": "26",
+      "sigma_power_of_R": "13/21",
+      "log10_x_t": "14/3",
+      "log10_x_ch_unmodified": "10/3",
+      "log10_C_at_onset": "-2",
+      "log10_C_at_d_if_continued": "-2",
+      "log10_x_star_if_localized": null,
+      "post_tearing_branch_initially_below_current_threshold": true,
+      "regime_under_unity_prefactors": "Harris_tearing_first_no_post_tearing_crossing"
+    }
+  ],
+  "formal_limit": {
+    "family": "R=10^(42m), sigma_tilde=10^(29m), m positive integer",
+    "log10_x_t": "6m",
+    "log10_x_star": "3m",
+    "log10_C_at_onset": "-m",
+    "log10_C_at_d_if_continued": "m",
+    "log10_x_star_over_x_t": "-3m",
+    "onset_demand_tends_to_zero": true
+  },
+  "localized_window_width": {
+    "sigma_upper_over_lower": "R^(1/21)",
+    "each_midpoint_magnetization_margin": "R^(1/42)",
+    "both_margins_greater_than_K_require": "R>K^42",
+    "finite_window_limit": "Finite prefactors can matter substantially; the formal family is not an inferred astrophysical parameter set."
+  },
+  "fixed_magnetization_limit": {
+    "identity": "x_star=sigma_tilde^3*R^-2 tends to zero at fixed sigma_tilde",
+    "exact_grid_controls_at_sigma_equal_one": 8,
+    "formal_witnesses_use_correlated_double_scaling": true,
+    "source_fixed_parameter_expectation_contradicted": false
+  },
+  "formulae": {
+    "onset": "x_t=R^[n/(4+5n)]",
+    "unmodified_charge_scale": "x_ch=R^(-1/3)*sigma_tilde^(2/3)",
+    "post_tearing_charge_demand": "C=sigma_tilde*R^(-2/3)*x^[-2(n-1)/(3n)]",
+    "localized_secondary_scale": "x_star=sigma_tilde^3/R^2",
+    "n1_control": "C independent of x"
+  },
+  "source_caveat_credited": "The source already expects a_star<d_rel in astrophysical systems and conditions its negligible-charge-starvation conclusion on that expectation.",
+  "unity_prefactors_declared": true,
+  "all_scientific_algebra_exact_Fraction": true,
+  "large_values_never_exponentiated_for_plotting": true,
+  "independent_verifier_imported_or_run": false,
+  "artifacts": [
+    {
+      "path": "data/profile-exponents.csv",
+      "bytes": 176,
+      "sha256": "9c740c37f3773b529af819a51097f5320facaac4e6c41e83ead284490b57a83b"
+    },
+    {
+      "path": "data/finite-domain-cases.csv",
+      "bytes": 12413,
+      "sha256": "45656c49a4e528966b2ea9a6e7b6f8868a5d4ef586ab0ce01863fd388e682936"
+    },
+    {
+      "path": "data/transition-cases.csv",
+      "bytes": 2213,
+      "sha256": "306a29528e17c7d8823817f44b0ae4c53d602634d107904f3e7631ecafb55201"
+    },
+    {
+      "path": "data/formal-witnesses.csv",
+      "bytes": 918,
+      "sha256": "cb5be57297a82a48b10c137354865335ea56985af5b2a67958275fd133a7f1ba"
+    },
+    {
+      "path": "data/trajectory-cases.csv",
+      "bytes": 482,
+      "sha256": "b70d377446a49ab5381f3877e238d32e0f1715f04cc2edeac06bf9d2a4c75c5c"
+    },
+    {
+      "path": "data/producer-source-locators.json",
+      "bytes": 1477,
+      "sha256": "9313f8f695cc9df7594e48890f5e3a4595cc7012218471b7a845c3260685f60a"
+    },
+    {
+      "path": "figures/phase-domains.png",
+      "bytes": 195449,
+      "sha256": "169ac89d274d98190815985b67670f6d99a68a30ea9b68cc268cd99ae1b1566d"
+    },
+    {
+      "path": "figures/current-demand-trajectories.png",
+      "bytes": 139998,
+      "sha256": "7b6e126f4104fcd4f6545ba498f4a4405f8a2089d329fae4f03348cad550f878"
+    }
+  ],
+  "limits": [
+    "Conditional scale classification of the source phenomenology, not an algebra-error claim against Eq.(18) or Eq.(25).",
+    "All examples are formal/synthetic; no measured astrophysical parameters or new source simulations are supplied.",
+    "Unmodified x_ch below d_rel is only an algebraic extrapolation; the source footnote4 assumes that scale is above d_rel for its initial-cascade discussion.",
+    "No post-crossing spectrum, heating, reconnection rate or kinetic outcome is predicted. Dashed extrapolation only illustrates where the assumed continuation fails its current-demand condition.",
+    "Fixed d_rel, density, cascade flux, profile class and negligible competing damping/radiation remain assumptions. Broader physical admissibility must be checked independently.",
+    "The Appendix algebra passed separate controls; no new full inner-ODE reconstruction is claimed.",
+    "Unity-prefactor equalities mark illustrative boundaries; asymptotic << statements require separation from those boundaries."
+  ],
+  "new_PIC_MHD_or_full_inner_ODE_runs": 0,
+  "publication_or_freeze_claimed": false
+}

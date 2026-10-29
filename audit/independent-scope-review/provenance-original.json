@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:49:54.110539+00:00",
+  "scope": "Independent parameter-domain/counterargument and bounded primary prior-art review; no publication verdict or full physical validation.",
+  "main_source": {
+    "title": "Tearing-mediated Alfvénic Turbulence in a Relativistic Plasma",
+    "authors": [
+      "Stanislav Boldyrev",
+      "Nuno F. Loureiro"
+    ],
+    "DOI": "10.3847/1538-4357/ada28a",
+    "official_article_URL": "https://iopscience.iop.org/article/10.3847/1538-4357/ada28a",
+    "supplied_PDF": {
+      "file": "supplied.pdf",
+      "bytes": 517337,
+      "SHA256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6"
+    },
+    "pages": 11,
+    "read_scope": "All11 supplied pages and complete43375-character cached publisher-visible prose read. Relevant main formulas checked against cached publisher TeX; source page4 inspected visually. No claim this reviewer independently inspected all78displayformulas visually.",
+    "key_locators": [
+      "p2Eqs3–4:guide magnetization and inertial scale",
+      "p3Eqs7–16:inertial cascade,onset,current demand",
+      "p4Eqs18–25:tearing conditions and post-tearing continuation; explicit below-inertial-length expectation immediately after25",
+      "p4Sec2.2:bulk-current validity limit,current cap,possible heating/densityfeedback",
+      "p5Conclusion:qualified application and parameter uncertainty",
+      "p7AppendixA19:fastest-mode wavenumber"
+    ]
+  },
+  "primary_prior_art_downloads": [
+    {
+      "file": "demidov-lyubarsky-2410.16167v1.pdf",
+      "URL": "https://arxiv.org/pdf/2410.16167v1",
+      "final_URL": "https://arxiv.org/pdf/2410.16167v1",
+      "HTTP_status": 200,
+      "checked_at_utc": "2026-10-29T22:44:43.962653+00:00",
+      "content_type": "application/pdf",
+      "bytes": 882156,
+      "SHA256": "748c4eac989d05ce730dfd67a06720eb59df62d52b49e436bb4b574b5e1e9420",
+      "pages": 18
+    },
+    {
+      "file": "loureiro-boldyrev-2018-vor.pdf",
+      "URL": "https://www.osti.gov/servlets/purl/1612419",
+      "final_URL": "https://www.osti.gov/servlets/purl/1612419",
+      "HTTP_status": 200,
+      "checked_at_utc": "2026-10-29T22:44:45.362059+00:00",
+      "content_type": "application/pdf",
+      "bytes": 267730,
+      "SHA256": "9c7ac8e85ac98baf8e8ecf94f23afb5fc800f61c5475d5d77b923c52be883388",
+      "pages": 5
+    }
+  ],
+  "primary_metadata_downloads": [
+    {
+      "file": "demidov-arxiv-abs.html",
+      "URL": "https://arxiv.org/abs/2410.16167",
+      "final_URL": "https://arxiv.org/abs/2410.16167",
+      "checked_at_utc": "2026-10-29T22:47:18.205178+00:00",
+      "HTTP_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 43015,
+      "SHA256": "6b1024dab30d23180a05665437ae3bac43ecc0f50be351e326060b19dfde5ac5"
+    },
+    {
+      "file": "loureiro-2018-arxiv-abs.html",
+      "URL": "https://arxiv.org/abs/1805.09224",
+      "final_URL": "https://arxiv.org/abs/1805.09224",
+      "checked_at_utc": "2026-10-29T22:47:18.392894+00:00",
+      "HTTP_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41153,
+      "SHA256": "422b5f94ab9645853111879dfe6281413468fc62420466b8f7ef30fc3496635c"
+    },
+    {
+      "file": "loureiro-2018-crossref.json",
+      "URL": "https://api.crossref.org/works/10.3847/2041-8213/aae483",
+      "final_URL": "https://api.crossref.org/works/10.3847/2041-8213/aae483",
+      "checked_at_utc": "2026-10-29T22:47:18.851572+00:00",
+      "HTTP_status": 200,
+      "content_type": "application/json",
+      "bytes": 14420,
+      "SHA256": "9d39579ac2252efcb126e0bcfa8bebf22af379ed8de28b54348d092fc7241c2e"
+    }
+  ],
+  "prior_art_read_scope": [
+    {
+      "source": "Demidov and Lyubarsky,arXiv2410.16167v1",
+      "official_abs_URL": "https://arxiv.org/abs/2410.16167",
+      "read": "Official abstract and PDFpages7–11;completeSec3.3andSecs4.1–4.3,plusstartSec5. Page11Eq41 visually checked. Remaining eighteen-page preprint not fully read.",
+      "version_limit": "Official abs identifies onlyv1 and related journal DOI10.3847/1538-4357/ad9d3a,ApJ979104(2025). That journal fulltext was not retrieved or compared here."
+    },
+    {
+      "source": "Loureiro and Boldyrev2018,ApJL866L14",
+      "DOI": "10.3847/2041-8213/aae483",
+      "read": "Complete5-pageprimaryjournalPDFhostedbyOSTI. Publisher-depositedCrossrefmetadata independently checked; officialarxiv1805.09224absread butarxivPDFnotused.",
+      "version_limit": "No assertion of byteidentity with arxiv1805.09224v1. Journalonline11October2018 and printedissuedate10October2018 distinguished."
+    }
+  ],
+  "independent_controls": {
+    "execution_environment": {
+      "python": "3.13.7",
+      "standard_library_only": true
+    },
+    "status": "pass",
+    "inside_rational_exponent_cases": 20,
+    "boundary_and_outside_cases": 4,
+    "finite_R_cases": 8,
+    "mode_fit_cases": 6,
+    "Harris_scale_independence_control": true,
+    "scope": "Standard-libraryscalar/exponentchecks,notMHD/PIC,cascade evolution,astrophysical fit or post-threshold spectrum."
+  },
+  "evidence_classification": {
+    "source_facts": "Printedsourceformulas/qualifiers and the explicitly limited primary prior-art passages.",
+    "derived_inferences": "Formalcorrelatedparameterwindow,finiteRwidthandmargins,conditionalguide/mode-fit/current-prefactor/radiativescalingcontrols.",
+    "unknowns": "Actual astrophysical occupancy,orderoneprefactors,density/enthalpyfeedback,tail-dependentkinetics,nonlinearcontinuationandmeasuredspectra.",
+    "unsupported_claims_excluded": [
+      "NoassertionthatEq25wasomittedorhaswrongpowers.",
+      "Noassertionthatcurrentlimitbecomesirrelevantonlythrougharefutedphysicaltheorem.",
+      "Noassertionofnoveltearing-mediatedspectrum.",
+      "Noauthor-intentinference,nosourcecodeidentityorsimulationreanalysis."
+    ]
+  },
+  "file_integrity": [
+    {
+      "file": "supplied.pdf",
+      "bytes": 517337,
+      "SHA256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6"
+    },
+    {
+      "file": "journal-browser-full-text.txt",
+      "bytes": 43861,
+      "SHA256": "a822f5092638c36eeaab85953517fff7d640235a8fd93e3d035a73d06e7148c2"
+    },
+    {
+      "file": "journal-display-equations.json",
+      "bytes": 37934,
+      "SHA256": "649cacfc97a35b435067f3805f26d9c2a360992664ff679547ce27cb0d78cf39"
+    },
+    {
+      "file": "supplied-page-04.png",
+      "bytes": 482222,
+      "SHA256": "132c14d431a3b335aff4dc9debc2784bd1a246e552ab61aa43707871ee6536da"
+    },
+    {
+      "file": "independent-scope-prior-art/demidov-lyubarsky-2410.16167v1.pdf",
+      "bytes": 882156,
+      "SHA256": "748c4eac989d05ce730dfd67a06720eb59df62d52b49e436bb4b574b5e1e9420"
+    },
+    {
+      "file": "independent-scope-prior-art/demidov-page11.png",
+      "bytes": 338084,
+      "SHA256": "fc133da4ab908f8ecbefd5d0518d000d4b1e020ff5fe6d7464a6973aa428bcd0"
+    },
+    {
+      "file": "independent-scope-prior-art/loureiro-boldyrev-2018-vor.pdf",
+      "bytes": 267730,
+      "SHA256": "9c7ac8e85ac98baf8e8ecf94f23afb5fc800f61c5475d5d77b923c52be883388"
+    },
+    {
+      "file": "independent-scope-prior-art/stress_test_parameter_window.py",
+      "bytes": 5231,
+      "SHA256": "91e7bce1cbafe311706f2c5d7feec68381c79c257e0ae3707a0d007a61fc7ea8"
+    },
+    {
+      "file": "independent-scope-prior-art/parameter-window-controls.json",
+      "bytes": 12552,
+      "SHA256": "524ba1794ec7ae98e05001e4e7ecf1c090a018691eee6ba0b7762a3696bb59a4"
+    },
+    {
+      "file": "independent-scope-review.md",
+      "bytes": 12498,
+      "SHA256": "b36e982ad34803726d6f1c045f4034eac55ea228cfd591f7a10a23df264242ac"
+    }
+  ],
+  "external_action_scope": "Ordinary public primary-sourceGETs only; downloads serialized and byte-hashed; no Chrome or external mutation,submission,email,Gitoperation,authorcontactorhuman-checkbypass."
+}

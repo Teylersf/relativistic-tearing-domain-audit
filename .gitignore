@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+submissions/
+paper/
+.publishing-access/
+*.dpapi
+*.enc

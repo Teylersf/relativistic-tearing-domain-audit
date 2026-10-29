@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:37:24.219648+00:00",
+  "status": "full_supplied_read_human_cleared_publisher_math_matched_fresh_PDF_bytes_unverified",
+  "target": {
+    "title": "Tearing-mediated Alfv\u00e9nic Turbulence in a Relativistic Plasma",
+    "authors": [
+      {
+        "name": "Stanislav Boldyrev",
+        "ORCID": "0000-0001-6252-5169"
+      },
+      {
+        "name": "Nuno F. Loureiro",
+        "ORCID": "0000-0001-9755-6563"
+      }
+    ],
+    "DOI": "10.3847/1538-4357/ada28a",
+    "journal": "The Astrophysical Journal",
+    "volume": "979",
+    "issue": "2",
+    "article_number": "232",
+    "pages": 11,
+    "received": "2024-11-11",
+    "revised": "2024-12-18",
+    "accepted": "2024-12-19",
+    "published_online": "2025-01-29",
+    "issue_date": "2025-02-01"
+  },
+  "supplied_PDF": {
+    "filename": "supplied.pdf",
+    "bytes": 517337,
+    "sha256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6",
+    "actual_pages": 11,
+    "embedded_creator": "IOPP",
+    "internal_identification": "Journal-formatted VOR with matching title/authors/DOI/citation/received-revised-accepted-published dates and publisher CC-BY notice.",
+    "independent_current_publisher_PDF_byte_identity_verified": false
+  },
+  "primary_metadata": {
+    "Crossref_url": "https://api.crossref.org/works/10.3847/1538-4357/ada28a",
+    "http_status": 200,
+    "metadata_sha256": "b7859e49bb5d7ec8947edd924a80c86140424356abab79797e5405cfd4ac1062",
+    "content_version": "vor",
+    "relation": {},
+    "update_to_present": false,
+    "updated_by_present": false,
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "bibliographic_agreement_with_supplied": true,
+    "Crossref_reference_count": 82
+  },
+  "publisher_access": {
+    "official_article_url": "https://iopscience.iop.org/article/10.3847/1538-4357/ada28a",
+    "official_PDF_url": "https://iopscience.iop.org/article/10.3847/1538-4357/ada28a/pdf",
+    "current_status": "Human challenge cleared by the user; ordinary publisher full article visible in the browser and149math/tex nodes saved by parent.",
+    "human_verification_resolved_for_current_browser": true,
+    "current_HTML_math_access_blocked": false,
+    "verified_evidence": "journal-browser-math-tex.json",
+    "verified_evidence_sha256": "91db428fd02ef93bb27f254821991e89405489a7953d624d1743c0d597af2c83",
+    "this_reviewer_used_saved_browser_extraction_not_another_HTTP_request": true,
+    "historical_raw_fetch_observation": "publisher-access.json accurately records the earlier challenged anonymous fetch and is retained unchanged as historical evidence.",
+    "fresh_official_PDF_download_obtained": false,
+    "exact_current_PDF_byte_identity_verified": false,
+    "remaining_limit": "No known new official PDF download; substantive mathematical match does not establish byte identity.",
+    "challenge_bypass_or_raw_HTTP_retry_by_this_reviewer": false,
+    "transient_redirect_query_and_address_not_retained": true
+  },
+  "arxiv_and_editions": {
+    "authentic_target_arxiv_id_established": false,
+    "official_API_queries": [
+      "all:\"Tearing-mediated\" AND all:\"relativistic\"",
+      "au:Boldyrev AND au:Loureiro"
+    ],
+    "coauthor_query_total_records": 14,
+    "coauthor_query_newest_submission": "2021-04-28",
+    "target_entry_in_bounded_API_results": false,
+    "arxiv_source_or_PDF_downloaded": false,
+    "limits": "No target preprint identified by these bounded primary queries or title searches. This is not proof that none exists; no version history or substantive cross-edition change is invented."
+  },
+  "reading": {
+    "full_supplied_pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "all_supplied_pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "captions_footnotes_appendix_references_included": true,
+    "source_sections": [
+      "Introductionpp1-2",
+      "Two-fluid variables and equationspp2",
+      "Section2 tearing and charge-starvation scalingspp3-4",
+      "Conclusion/acknowledgmentsp5",
+      "AppendixA1-A5pp5-10",
+      "ORCIDandreferencespp10-11"
+    ],
+    "figure_count": 2,
+    "figures": [
+      {
+        "number": 1,
+        "page": 7,
+        "kind": "Illustrative numerical solution of inner ODE A5 with asymptotic overlays",
+        "reported_parameters": "beta_s=1,lambda=1e-4,d_rel/a=1e-2"
+      },
+      {
+        "number": 2,
+        "page": 8,
+        "kind": "Schematic Harris-profile growth-rate regimes for beta_s<1"
+      }
+    ],
+    "new_PIC_simulations_reported_by_target": false,
+    "critical_visual_equation_groups": [
+      "pp2Eq1-6normalizations/two-fluid equations",
+      "pp3-5Eq7-33scales/spectra/charge starvation",
+      "pp5-7A1-A21innerODE/matching",
+      "pp8A22-A30small-beta and twiddle estimates",
+      "pp9-10A31-A45hypergeometric matching/formal large-beta limit"
+    ],
+    "all78_publisher_display_equations_read_and_compared_to_supplied_pages": true,
+    "substantive_formula_match_with_publisher_HTML": true,
+    "full_official_prose_HTML_read_from_saved_file": false
+  },
+  "extraction": {
+    "runtime_python": "3.12.14",
+    "pypdf_version": "6.10.0",
+    "pdfplumber_version": "0.11.9",
+    "numbered_page_text_files": [
+      "supplied-page-01.txt",
+      "supplied-page-02.txt",
+      "supplied-page-03.txt",
+      "supplied-page-04.txt",
+      "supplied-page-05.txt",
+      "supplied-page-06.txt",
+      "supplied-page-07.txt",
+      "supplied-page-08.txt",
+      "supplied-page-09.txt",
+      "supplied-page-10.txt",
+      "supplied-page-11.txt"
+    ],
+    "compact_page_text_files": [
+      "supplied-page-01-compact.txt",
+      "supplied-page-02-compact.txt",
+      "supplied-page-03-compact.txt",
+      "supplied-page-04-compact.txt",
+      "supplied-page-05-compact.txt",
+      "supplied-page-06-compact.txt",
+      "supplied-page-07-compact.txt",
+      "supplied-page-08-compact.txt",
+      "supplied-page-09-compact.txt",
+      "supplied-page-10-compact.txt",
+      "supplied-page-11-compact.txt"
+    ],
+    "render_dpi": 130,
+    "main_equation_labels": 33,
+    "appendix_equation_labels": 45,
+    "PDF_label_anchor_count": 78,
+    "authoritative_abstract_MathML_spans": 4,
+    "limitations": "PDF glyph ordering remains unreliable; all78display formulas were visually checked against the exact publisher script text. No full author-source archive or fresh official PDF bytes obtained.",
+    "full_article_publisher_math_tex_scripts_retrieved": true,
+    "publisher_math_node_count": 149,
+    "publisher_display_equation_count": 78,
+    "TeX_semantics": "Publisher-generated math/tex script nodes only; no author-source TeX archive.",
+    "author_source_TeX_archive_retrieved": false
+  },
+  "data_and_code": {
+    "explicit_data_availability_section_in_supplied_PDF_identified": false,
+    "target_linked_program_or_deposit_URI_in_supplied_PDF_identified": false,
+    "embedded_unique_URI_count": 157,
+    "bounded_external_deposit_search_positive": false,
+    "numerical_method_description": "Inner ODE and asymptotic formulas stated; Fig1parameters given; no case-specific solver program/raw solution array obtained.",
+    "limits": "Complete suppliedPDF/bounded searches yielded no explicit target-linked deposit. The prior context receipt predates human clearance; this reviewer has not yet inspected newly accessible publisher availability/supplementary prose."
+  },
+  "corrections": {
+    "target_specific_correction_identified": false,
+    "bounded_context_receipt": "correction-and-deposit-check.json",
+    "bounded_context_sha256": "e91949edb841e34ac6ec15ca869467436372a8a5e5232aa414916ac174ea6251",
+    "limits": "Empty Crossref relation/update fields and bounded searches do not prove absence. The context receipt records the earlier access state; current publisherHTMLis human-cleared."
+  },
+  "substantive_edition_changes": {
+    "status": "No substantive mathematical difference identified in all78numbered display equations between suppliedVORandhuman-clearedpublisherHTML.",
+    "formula_comparison_complete": true,
+    "full_official_prose_or_binary_identity_claimed": false,
+    "arxiv_edition_comparison": "No authentic target arXiv edition identified."
+  },
+  "source_license": "CCBY4.0 notice in suppliedp1and publisher-deposited Crossref record; attributed source material remains third-party work.",
+  "files": [
+    {
+      "filename": "supplied.pdf",
+      "bytes": 517337,
+      "sha256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6"
+    },
+    {
+      "filename": "supplied-full-text.txt",
+      "bytes": 315929,
+      "sha256": "722a515ed3e878f8c4a3da50c8cec8eaca61c928125c21583801c0e031d97f50"
+    },
+    {
+      "filename": "supplied-full-text-compact.txt",
+      "bytes": 56654,
+      "sha256": "120ce8929af69e5f609a4d89ad2f73f71e373403fa37487ce0c4090a5ec865fd"
+    },
+    {
+      "filename": "supplied-link-inventory.json",
+      "bytes": 16261,
+      "sha256": "dd103fbca5b30f1d64ac61ce173e726b4e7bbb1845534c72bb7dfe2c4e9eeaf7"
+    },
+    {
+      "filename": "supplied-math-label-anchors.json",
+      "bytes": 48959,
+      "sha256": "bc5d51afb6e256c8bb23750fc1b4d4d1a61078c494ed025ae4b42fd58b5e18c5"
+    },
+    {
+      "filename": "crossref-ada28a.json",
+      "bytes": 26785,
+      "sha256": "b7859e49bb5d7ec8947edd924a80c86140424356abab79797e5405cfd4ac1062"
+    },
+    {
+      "filename": "crossref-abstract-math-spans.json",
+      "bytes": 7153,
+      "sha256": "bf4d7f296d21e968aa3ad676f6d5cc104c53c7004dadf66ff1a3894ffec7b1ac"
+    },
+    {
+      "filename": "publisher-access.json",
+      "bytes": 697,
+      "sha256": "2edf7567584201b5fc33d300b58c5a1e100bc9b79af6017eeb0b99e0268f5dd5"
+    },
+    {
+      "filename": "correction-and-deposit-check.json",
+      "bytes": 5453,
+      "sha256": "e91949edb841e34ac6ec15ca869467436372a8a5e5232aa414916ac174ea6251"
+    },
+    {
+      "filename": "arxiv-query.xml",
+      "bytes": 3583,
+      "sha256": "0dad1698760b14238f6efbf08b15f5ff9993927cbff442c35c7a0eaa3b6f73da"
+    },
+    {
+      "filename": "arxiv-query-receipt.json",
+      "bytes": 497,
+      "sha256": "1bbe1c98e6c7d11ef6bc3a7717ec9d4fb7aed113d5c42693bed5a85887a6bfc9"
+    },
+    {
+      "filename": "arxiv-coauthors-query.xml",
+      "bytes": 33871,
+      "sha256": "a82753d5f4e60b8fb15b256809177555a5ca8e42489a8e07712bf30dd83effa1"
+    },
+    {
+      "filename": "arxiv-coauthors-query-receipt.json",
+      "bytes": 438,
+      "sha256": "ae7ae1523d76e12521facc26ed90a5c6087960942c6518e50a823ccec8d12f8c"
+    },
+    {
+      "filename": "journal-browser-math-tex.json",
+      "bytes": 39135,
+      "sha256": "91db428fd02ef93bb27f254821991e89405489a7953d624d1743c0d597af2c83"
+    },
+    {
+      "filename": "journal-display-equations.json",
+      "bytes": 37934,
+      "sha256": "649cacfc97a35b435067f3805f26d9c2a360992664ff679547ce27cb0d78cf39"
+    }
+  ],
+  "page_render_hashes": [
+    {
+      "page": 1,
+      "filename": "supplied-page-01.png",
+      "sha256": "a7654687a21862f97daa33e0093213ee7e2ccb12f37d15927b05edda751b7692"
+    },
+    {
+      "page": 2,
+      "filename": "supplied-page-02.png",
+      "sha256": "e31e6778545cfd588d2945f2a3cdc40da3caa7abb76e7c1bbd7cc9f12d8bcd46"
+    },
+    {
+      "page": 3,
+      "filename": "supplied-page-03.png",
+      "sha256": "631f262dc089e1962bf0584330b31e5c3fb79db3c53a7078f326c7339e035846"
+    },
+    {
+      "page": 4,
+      "filename": "supplied-page-04.png",
+      "sha256": "132c14d431a3b335aff4dc9debc2784bd1a246e552ab61aa43707871ee6536da"
+    },
+    {
+      "page": 5,
+      "filename": "supplied-page-05.png",
+      "sha256": "cfb5935fc2f8a95b9bc05565888bad15ecbf5c116c526cc1cef43d25b6e5f720"
+    },
+    {
+      "page": 6,
+      "filename": "supplied-page-06.png",
+      "sha256": "c78bb4343e62299a2f4519e0b31775b4d61be6f4e7d82642d301451faf1a0ca7"
+    },
+    {
+      "page": 7,
+      "filename": "supplied-page-07.png",
+      "sha256": "ad8e36154ba2063bdfa8c7030b2c6b8eb160cf1d5fb8ca91e87cca366a8eef65"
+    },
+    {
+      "page": 8,
+      "filename": "supplied-page-08.png",
+      "sha256": "32727ff5b0cc2cb6ccadad4f2f31df4e61bd218bffa84e81685791fced025d35"
+    },
+    {
+      "page": 9,
+      "filename": "supplied-page-09.png",
+      "sha256": "b7c6fa0c34c764c9323ffadd3cce2ae7cc4b5b1f257b062b90931c612fd05d3e"
+    },
+    {
+      "page": 10,
+      "filename": "supplied-page-10.png",
+      "sha256": "40b6cfec64c230581c2107f037d74847b2895a361961062a1cdf47c0d21b61f0"
+    },
+    {
+      "page": 11,
+      "filename": "supplied-page-11.png",
+      "sha256": "2d25d9d49a52c72cb2963607d295bf2560b2c9d7cf728c99fcab02a761b61870"
+    }
+  ],
+  "scientific_error_finding_presumed": false,
+  "paper_or_PDF_authored": false,
+  "external_contact_publication_or_Git_mutation": false,
+  "public_safety": "No credentials, challenge-session query, network address, or private absolute cache path included. Raw blocked-response HTML is local working evidence and not a public dependency."
+}

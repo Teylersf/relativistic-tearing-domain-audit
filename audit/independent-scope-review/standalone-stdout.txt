@@ -1,0 +1,1 @@
+{"status": "pass", "inside_exact_cases": 20, "boundaries_and_outside": 4, "finite_R_cases": 8, "mode_fit_cases": 6, "program_SHA256": "c9ce49d92ce0951e7a4b8a1cdbd1a14c522fd2f9bae70464020449a21fa7cc2c", "JSON_SHA256": "00393986e13bf67310d8bbee56b67d2cd5af46f3e6c4de4f205ecbdb494ebcf7"}

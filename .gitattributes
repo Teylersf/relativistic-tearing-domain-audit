@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.json -text
+*.csv -text
+audit/** -text
+data/original-verifiers/** -text
+*.png binary
+*.pdf binary

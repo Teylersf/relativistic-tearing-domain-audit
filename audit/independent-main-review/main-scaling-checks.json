@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "all_checks_passed": true,
+  "scope": "Declared fixed-parameter phenomenological main-equation scaling identities; no new fluid/PIC/particle evolution or astrophysical measurement.",
+  "verifier_sha256": "8f5533751dba22ce9da779805d34d8b2b5fe8b71913e1cdbba577a4055726d14",
+  "python_version": "3.13.7",
+  "sources": [
+    {
+      "filename": "supplied.pdf",
+      "bytes": 517337,
+      "sha256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6",
+      "verification_semantics": "recorded provenance; no source bytes read or rehashed"
+    },
+    {
+      "filename": "journal-browser-math-tex.json",
+      "bytes": 39135,
+      "sha256": "91db428fd02ef93bb27f254821991e89405489a7953d624d1743c0d597af2c83",
+      "verification_semantics": "recorded provenance; no source bytes read or rehashed"
+    }
+  ],
+  "positive_scaling_controls": [
+    {
+      "profile_n": 1,
+      "at_over_d_power_of_R": "1/9",
+      "ach_over_at_power_of_R_at_fixed_sigma": "-4/9",
+      "tearing_first_sigma_threshold_power": "2/3",
+      "tearing_range_ba_power_of_a": "1",
+      "one_dimensional_spectrum_power": "-3",
+      "charge_parameter_power_of_a_over_d": "0",
+      "charge_parameter_at_d": "sigma_tilde * R^(-2/3)",
+      "secondary_charge_scale": null,
+      "all_exponent_identities_pass": true
+    },
+    {
+      "profile_n": 2,
+      "at_over_d_power_of_R": "1/7",
+      "ach_over_at_power_of_R_at_fixed_sigma": "-10/21",
+      "tearing_first_sigma_threshold_power": "5/7",
+      "tearing_range_ba_power_of_a": "5/6",
+      "one_dimensional_spectrum_power": "-8/3",
+      "charge_parameter_power_of_a_over_d": "-1/3",
+      "charge_parameter_at_d": "sigma_tilde * R^(-2/3)",
+      "secondary_charge_scale": "a_star/d = sigma_tilde^3/R^2",
+      "all_exponent_identities_pass": true
+    }
+  ],
+  "logarithmic_model_examples": [
+    {
+      "profile_n": 1,
+      "log10_R": 6,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "18/5",
+      "log10_at_over_d": "2/3",
+      "log10_ach_pretearing_over_d": "2/5",
+      "log10_charge_parameter_at_tearing_onset": "-2/5",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-2/5",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 6,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "21/5",
+      "log10_at_over_d": "2/3",
+      "log10_ach_pretearing_over_d": "4/5",
+      "log10_charge_parameter_at_tearing_onset": "1/5",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "1/5",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 6,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "24/5",
+      "log10_at_over_d": "2/3",
+      "log10_ach_pretearing_over_d": "6/5",
+      "log10_charge_parameter_at_tearing_onset": "4/5",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "4/5",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 30,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "18",
+      "log10_at_over_d": "10/3",
+      "log10_ach_pretearing_over_d": "2",
+      "log10_charge_parameter_at_tearing_onset": "-2",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-2",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 30,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "21",
+      "log10_at_over_d": "10/3",
+      "log10_ach_pretearing_over_d": "4",
+      "log10_charge_parameter_at_tearing_onset": "1",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "1",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 30,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "24",
+      "log10_at_over_d": "10/3",
+      "log10_ach_pretearing_over_d": "6",
+      "log10_charge_parameter_at_tearing_onset": "4",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "4",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 70,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "42",
+      "log10_at_over_d": "70/9",
+      "log10_ach_pretearing_over_d": "14/3",
+      "log10_charge_parameter_at_tearing_onset": "-14/3",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-14/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 70,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "49",
+      "log10_at_over_d": "70/9",
+      "log10_ach_pretearing_over_d": "28/3",
+      "log10_charge_parameter_at_tearing_onset": "7/3",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "7/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 70,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "56",
+      "log10_at_over_d": "70/9",
+      "log10_ach_pretearing_over_d": "14",
+      "log10_charge_parameter_at_tearing_onset": "28/3",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "28/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 140,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "84",
+      "log10_at_over_d": "140/9",
+      "log10_ach_pretearing_over_d": "28/3",
+      "log10_charge_parameter_at_tearing_onset": "-28/3",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-28/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 140,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "98",
+      "log10_at_over_d": "140/9",
+      "log10_ach_pretearing_over_d": "56/3",
+      "log10_charge_parameter_at_tearing_onset": "14/3",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "14/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 1,
+      "log10_R": 140,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "112",
+      "log10_at_over_d": "140/9",
+      "log10_ach_pretearing_over_d": "28",
+      "log10_charge_parameter_at_tearing_onset": "56/3",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "56/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 6,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "18/5",
+      "log10_at_over_d": "6/7",
+      "log10_ach_pretearing_over_d": "2/5",
+      "log10_charge_parameter_at_tearing_onset": "-24/35",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-2/5",
+      "log10_secondary_charge_scale_over_d": "-6/5",
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 6,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "21/5",
+      "log10_at_over_d": "6/7",
+      "log10_ach_pretearing_over_d": "4/5",
+      "log10_charge_parameter_at_tearing_onset": "-3/35",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "1/5",
+      "log10_secondary_charge_scale_over_d": "3/5",
+      "regime_within_declared_scalings": "tearing_onset_then_charge_starvation_above_d"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 6,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "24/5",
+      "log10_at_over_d": "6/7",
+      "log10_ach_pretearing_over_d": "6/5",
+      "log10_charge_parameter_at_tearing_onset": "18/35",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "4/5",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 30,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "18",
+      "log10_at_over_d": "30/7",
+      "log10_ach_pretearing_over_d": "2",
+      "log10_charge_parameter_at_tearing_onset": "-24/7",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-2",
+      "log10_secondary_charge_scale_over_d": "-6",
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 30,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "21",
+      "log10_at_over_d": "30/7",
+      "log10_ach_pretearing_over_d": "4",
+      "log10_charge_parameter_at_tearing_onset": "-3/7",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "1",
+      "log10_secondary_charge_scale_over_d": "3",
+      "regime_within_declared_scalings": "tearing_onset_then_charge_starvation_above_d"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 30,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "24",
+      "log10_at_over_d": "30/7",
+      "log10_ach_pretearing_over_d": "6",
+      "log10_charge_parameter_at_tearing_onset": "18/7",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "4",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 70,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "42",
+      "log10_at_over_d": "10",
+      "log10_ach_pretearing_over_d": "14/3",
+      "log10_charge_parameter_at_tearing_onset": "-8",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-14/3",
+      "log10_secondary_charge_scale_over_d": "-14",
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 70,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "49",
+      "log10_at_over_d": "10",
+      "log10_ach_pretearing_over_d": "28/3",
+      "log10_charge_parameter_at_tearing_onset": "-1",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "7/3",
+      "log10_secondary_charge_scale_over_d": "7",
+      "regime_within_declared_scalings": "tearing_onset_then_charge_starvation_above_d"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 70,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "56",
+      "log10_at_over_d": "10",
+      "log10_ach_pretearing_over_d": "14",
+      "log10_charge_parameter_at_tearing_onset": "6",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "28/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 140,
+      "sigma_power_p": "3/5",
+      "log10_sigma": "84",
+      "log10_at_over_d": "20",
+      "log10_ach_pretearing_over_d": "28/3",
+      "log10_charge_parameter_at_tearing_onset": "-16",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "-28/3",
+      "log10_secondary_charge_scale_over_d": "-28",
+      "regime_within_declared_scalings": "tearing_first_no_charge_crossing_above_d_in_model"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 140,
+      "sigma_power_p": "7/10",
+      "log10_sigma": "98",
+      "log10_at_over_d": "20",
+      "log10_ach_pretearing_over_d": "56/3",
+      "log10_charge_parameter_at_tearing_onset": "-2",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "14/3",
+      "log10_secondary_charge_scale_over_d": "14",
+      "regime_within_declared_scalings": "tearing_onset_then_charge_starvation_above_d"
+    },
+    {
+      "profile_n": 2,
+      "log10_R": 140,
+      "sigma_power_p": "4/5",
+      "log10_sigma": "112",
+      "log10_at_over_d": "20",
+      "log10_ach_pretearing_over_d": "28",
+      "log10_charge_parameter_at_tearing_onset": "12",
+      "log10_charge_parameter_at_d_if_tearing_scaling_continued": "56/3",
+      "log10_secondary_charge_scale_over_d": null,
+      "regime_within_declared_scalings": "charge_starvation_precedes_tearing_onset"
+    }
+  ],
+  "conditional_secondary_starvation_window": {
+    "profile_n": 2,
+    "parameter_family": "R->infinity, sigma_tilde=R^p, 2/3<p<5/7",
+    "selected_p": "7/10",
+    "sigma_over_tearing_threshold_power": "-1/70",
+    "a_star_over_d_power": "1/10",
+    "a_star_over_at_power": "-3/70",
+    "tearing_first_and_secondary_charge_crossing_parametrically_compatible": true
+  },
+  "source_locators": {
+    "tearing_onset": "Eqs7,9-13 pp3",
+    "charge_parameter_and_scale": "Eqs14-20 pp3-4",
+    "tearing_range_flux_and_secondary_scale": "Eqs21-25 p4",
+    "source_qualification": "p4 paragraph after Eq25 explicitly expects a_star<d in astrophysical systems and conditions its conclusion on that expectation",
+    "broader_conclusion": "Abstractp1 and conclusionp5 Eqs27-32"
+  },
+  "limits": [
+    "Main tearing-onset inequality is not refuted; the secondary issue concerns continuation of the localized-profile cascade below onset.",
+    "All results are conditional on adopted dynamic-alignment, constant-flux, profile-index and fixed-inertial-scale assumptions.",
+    "No actual astrophysical R or sigma has been inferred; large logarithmic examples are formal controls, not physical parameter estimates.",
+    "The source explicitly states the a_star<d expectation on p4; that qualification must not be omitted when describing the finding.",
+    "Changing density, heating, kinetic dispersion, damping, radiation or cascade structure can alter the evolution; none is newly solved here.",
+    "No new spectrum below secondary charge starvation, reconnection rate or PIC outcome is supplied."
+  ]
+}

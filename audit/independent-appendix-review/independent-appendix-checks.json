@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "source_title": "Tearing-mediated Alfvénic Turbulence in a Relativistic Plasma",
+  "source_DOI": "10.3847/1538-4357/ada28a",
+  "source_inputs": {
+    "supplied_PDF_sha256": "c03eb1d83e8f01c3c7283973ed0a6d0b545b7b30ecc7c53b2996e039b9e1c1f6",
+    "publisher_browser_TeX_sha256": "91db428fd02ef93bb27f254821991e89405489a7953d624d1743c0d597af2c83",
+    "fresh_journal_PDF_byte_identity_asserted": false,
+    "source_bytes_rehashed_this_run": false
+  },
+  "script_sha256": "ab78f6c21a6d707e3a9c8ffd06b5c82500a454c0ce4e4793ba4d253b3a6fba4f",
+  "environment": {
+    "python": "3.13.7",
+    "mpmath": "1.3.0",
+    "mpmath_digits": 80
+  },
+  "exact_fraction_control_counts": {
+    "A1_A2_to_A3_operator_derivative": 36,
+    "A30_to_A31_change_of_variables": 36,
+    "A8_A15_solve_A7": 36
+  },
+  "A15_A23_integrals": [
+    {
+      "beta_s": 0.2,
+      "d_over_a": 0.01,
+      "lambda": 6e-06,
+      "integral_relative_error": "0.0",
+      "A23_recovers_lambda": true
+    },
+    {
+      "beta_s": 0.2,
+      "d_over_a": 0.07,
+      "lambda": 4.2e-05,
+      "integral_relative_error": "2.1084395886461046449e-81",
+      "A23_recovers_lambda": true
+    },
+    {
+      "beta_s": 1.0,
+      "d_over_a": 0.01,
+      "lambda": 3e-05,
+      "integral_relative_error": "0.0",
+      "A23_recovers_lambda": true
+    },
+    {
+      "beta_s": 1.0,
+      "d_over_a": 0.07,
+      "lambda": 0.00021,
+      "integral_relative_error": "0.0",
+      "A23_recovers_lambda": true
+    },
+    {
+      "beta_s": 3.0,
+      "d_over_a": 0.01,
+      "lambda": 9e-05,
+      "integral_relative_error": "2.1084395886461046449e-81",
+      "A23_recovers_lambda": true
+    },
+    {
+      "beta_s": 3.0,
+      "d_over_a": 0.07,
+      "lambda": 0.00063,
+      "integral_relative_error": "1.0542197943230523224e-81",
+      "A23_recovers_lambda": true
+    }
+  ],
+  "A10_A14_controls": [
+    {
+      "scaled_xi": 0.01,
+      "A10_A12_absolute_difference": "0.0"
+    },
+    {
+      "scaled_xi": 0.1,
+      "A10_A12_absolute_difference": "0.0"
+    },
+    {
+      "scaled_xi": 1.0,
+      "A10_A12_absolute_difference": "0.0"
+    },
+    {
+      "scaled_xi": 4.0,
+      "A10_A12_absolute_difference": "2.1084395886461046449e-81"
+    }
+  ],
+  "maximum_A10_A12_absolute_difference": "2.1084395886461046449e-81",
+  "A36_connection_controls": [
+    {
+      "alpha": 0.001,
+      "z": -2.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.001,
+      "z": -10.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.001,
+      "z": -100.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.001,
+      "z": -10000.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.01,
+      "z": -2.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.01,
+      "z": -10.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.01,
+      "z": -100.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.01,
+      "z": -10000.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.1,
+      "z": -2.0,
+      "A36_relative_error": "1.0542197943230523224e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.1,
+      "z": -10.0,
+      "A36_relative_error": "0.0",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.1,
+      "z": -100.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.1,
+      "z": -10000.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.3,
+      "z": -2.0,
+      "A36_relative_error": "4.2168791772922092897e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.3,
+      "z": -10.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.3,
+      "z": -100.0,
+      "A36_relative_error": "4.2168791772922092897e-81",
+      "A35_prefactor_identity": true
+    },
+    {
+      "alpha": 0.3,
+      "z": -10000.0,
+      "A36_relative_error": "2.1084395886461046449e-81",
+      "A35_prefactor_identity": true
+    }
+  ],
+  "maximum_A36_relative_difference": "4.2168791772922092897e-81",
+  "A39_asymptotic_coefficient_controls": [
+    {
+      "alpha": 0.01,
+      "A39_first_coefficient": "1.000895839673390419900454",
+      "A39_second_coefficient_over_minus_2pi_alpha_squared": "0.9734347981937821473887661"
+    },
+    {
+      "alpha": 0.001,
+      "A39_first_coefficient": "1.000008935783745228623763",
+      "A39_second_coefficient_over_minus_2pi_alpha_squared": "0.9972394317708102906104676"
+    },
+    {
+      "alpha": 0.0001,
+      "A39_first_coefficient": "1.00000008934886607590771",
+      "A39_second_coefficient_over_minus_2pi_alpha_squared": "0.9997228617627467832475703"
+    }
+  ],
+  "pressure_branch_overlap_controls": [
+    {
+      "beta_s": 1.0,
+      "epsilon_Delta_prime": 0.01,
+      "lower_over_upper_overlap_scale": 0.0031830988618379067
+    },
+    {
+      "beta_s": 0.1,
+      "epsilon_Delta_prime": 0.001,
+      "lower_over_upper_overlap_scale": 0.0031830988618379067
+    },
+    {
+      "beta_s": 0.01,
+      "epsilon_Delta_prime": 0.0001,
+      "lower_over_upper_overlap_scale": 0.0031830988618379067
+    }
+  ],
+  "fastest_rate_exponent_controls": [
+    {
+      "n": 1,
+      "A20_epsilon_exponent": "2",
+      "A45_beta_s_exponent": "1"
+    },
+    {
+      "n": 2,
+      "A20_epsilon_exponent": "3/2",
+      "A45_beta_s_exponent": "5/6"
+    }
+  ],
+  "qualifications": [
+    "A16/A23 result from a leading inner approximation extended in matching; no exact finite-parameter full-eigenmode coefficient claim.",
+    "For positive real xi, z=-beta_s^2*xi^2/lambda^2 is negative; prose z>>1 means large magnitude, with the displayed (-z) formulas used on that physical branch.",
+    "Strict overlap requires lambda/beta_s << beta_s*d/a, not just an order-one crossover bound.",
+    "Large-beta formal extension also needs an inner-to-sheet scale ordering; no uniform accuracy at a finite-beta dispersion pole established.",
+    "The alpha-dependent logarithmic tail requires a controlled cutoff/ordering; this check does not allege an actual leading-scaling error."
+  ],
+  "scope": "Appendix-only algebra, matching and special-function checks. No full ODE eigenmode, source simulation, author code, network or publication."
+}

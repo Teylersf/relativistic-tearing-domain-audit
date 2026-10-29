@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "producer_sha256": "92fc6316142e9ee23d42be337ac57c2b9443f91a6e7bed9c97444a91e8330953",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "clean_output_reproduction": {
+    "files_compared": 9,
+    "all_bytes_identical": true,
+    "files": [
+      {
+        "path": "data/profile-exponents.csv",
+        "sha256": "9c740c37f3773b529af819a51097f5320facaac4e6c41e83ead284490b57a83b"
+      },
+      {
+        "path": "data/finite-domain-cases.csv",
+        "sha256": "45656c49a4e528966b2ea9a6e7b6f8868a5d4ef586ab0ce01863fd388e682936"
+      },
+      {
+        "path": "data/transition-cases.csv",
+        "sha256": "306a29528e17c7d8823817f44b0ae4c53d602634d107904f3e7631ecafb55201"
+      },
+      {
+        "path": "data/formal-witnesses.csv",
+        "sha256": "cb5be57297a82a48b10c137354865335ea56985af5b2a67958275fd133a7f1ba"
+      },
+      {
+        "path": "data/trajectory-cases.csv",
+        "sha256": "b70d377446a49ab5381f3877e238d32e0f1715f04cc2edeac06bf9d2a4c75c5c"
+      },
+      {
+        "path": "data/producer-source-locators.json",
+        "sha256": "9313f8f695cc9df7594e48890f5e3a4595cc7012218471b7a845c3260685f60a"
+      },
+      {
+        "path": "figures/phase-domains.png",
+        "sha256": "169ac89d274d98190815985b67670f6d99a68a30ea9b68cc268cd99ae1b1566d"
+      },
+      {
+        "path": "figures/current-demand-trajectories.png",
+        "sha256": "7b6e126f4104fcd4f6545ba498f4a4405f8a2089d329fae4f03348cad550f878"
+      },
+      {
+        "path": "data/producer-results.json",
+        "sha256": "3eb86f0299c16091b0079019ca5375c4e09ced9396128a80132e0763b7035288"
+      }
+    ]
+  },
+  "optimized_mode_rejected_before_output": true,
+  "canonical_output_hashes_unchanged_by_guard_test": true,
+  "public_safety_scan": "pass",
+  "new_figures_visually_inspected": true,
+  "scope": "Original producer rerun in a separate output directory, with byte comparison in its recorded environment. No independent verifier imported, no source simulations/inner-ODE run, no Git or publication action."
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "environment": {
+    "python": "3.13.7",
+    "standard_library_only": true
+  },
+  "program_SHA256": "c9ce49d92ce0951e7a4b8a1cdbd1a14c522fd2f9bae70464020449a21fa7cc2c",
+  "scope": "Exact exponents and scalar consistency controls, not an astrophysical parameter inference, nonlinear plasma solution or kinetic validation.",
+  "assumptions": [
+    "R=L_perp/d_rel>1; fixed density and enthalpy.",
+    "n=2 source post-onset amplitude scaling and current proxy retained only up to prospective charge-starvation onset.",
+    "Order-one prefactors omitted, as in the source scaling estimates.",
+    "Mode-fit control assumes the stated tearing-time/nonlinear-time balance and the usual velocity-amplitude eddy length."
+  ],
+  "inside_window_exact_controls": [
+    {
+      "p": "295/441",
+      "a_star_over_d_exponent": "1/147",
+      "a_star_over_a_t_exponent": "-20/147",
+      "unmodified_a_ch_over_a_t_exponent": "-40/1323",
+      "current_proxy_at_a_t_exponent": "-20/441",
+      "normalized_fluctuation_at_a_star_exponent": "-289/882"
+    },
+    {
+      "p": "296/441",
+      "a_star_over_d_exponent": "2/147",
+      "a_star_over_a_t_exponent": "-19/147",
+      "unmodified_a_ch_over_a_t_exponent": "-38/1323",
+      "current_proxy_at_a_t_exponent": "-19/441",
+      "normalized_fluctuation_at_a_star_exponent": "-142/441"
+    },
+    {
+      "p": "33/49",
+      "a_star_over_d_exponent": "1/49",
+      "a_star_over_a_t_exponent": "-6/49",
+      "unmodified_a_ch_over_a_t_exponent": "-4/147",
+      "current_proxy_at_a_t_exponent": "-2/49",
+      "normalized_fluctuation_at_a_star_exponent": "-31/98"
+    },
+    {
+      "p": "298/441",
+      "a_star_over_d_exponent": "4/147",
+      "a_star_over_a_t_exponent": "-17/147",
+      "unmodified_a_ch_over_a_t_exponent": "-34/1323",
+      "current_proxy_at_a_t_exponent": "-17/441",
+      "normalized_fluctuation_at_a_star_exponent": "-137/441"
+    },
+    {
+      "p": "299/441",
+      "a_star_over_d_exponent": "5/147",
+      "a_star_over_a_t_exponent": "-16/147",
+      "unmodified_a_ch_over_a_t_exponent": "-32/1323",
+      "current_proxy_at_a_t_exponent": "-16/441",
+      "normalized_fluctuation_at_a_star_exponent": "-269/882"
+    },
+    {
+      "p": "100/147",
+      "a_star_over_d_exponent": "2/49",
+      "a_star_over_a_t_exponent": "-5/49",
+      "unmodified_a_ch_over_a_t_exponent": "-10/441",
+      "current_proxy_at_a_t_exponent": "-5/147",
+      "normalized_fluctuation_at_a_star_exponent": "-44/147"
+    },
+    {
+      "p": "43/63",
+      "a_star_over_d_exponent": "1/21",
+      "a_star_over_a_t_exponent": "-2/21",
+      "unmodified_a_ch_over_a_t_exponent": "-4/189",
+      "current_proxy_at_a_t_exponent": "-2/63",
+      "normalized_fluctuation_at_a_star_exponent": "-37/126"
+    },
+    {
+      "p": "302/441",
+      "a_star_over_d_exponent": "8/147",
+      "a_star_over_a_t_exponent": "-13/147",
+      "unmodified_a_ch_over_a_t_exponent": "-26/1323",
+      "current_proxy_at_a_t_exponent": "-13/441",
+      "normalized_fluctuation_at_a_star_exponent": "-127/441"
+    },
+    {
+      "p": "101/147",
+      "a_star_over_d_exponent": "3/49",
+      "a_star_over_a_t_exponent": "-4/49",
+      "unmodified_a_ch_over_a_t_exponent": "-8/441",
+      "current_proxy_at_a_t_exponent": "-4/147",
+      "normalized_fluctuation_at_a_star_exponent": "-83/294"
+    },
+    {
+      "p": "304/441",
+      "a_star_over_d_exponent": "10/147",
+      "a_star_over_a_t_exponent": "-11/147",
+      "unmodified_a_ch_over_a_t_exponent": "-22/1323",
+      "current_proxy_at_a_t_exponent": "-11/441",
+      "normalized_fluctuation_at_a_star_exponent": "-122/441"
+    },
+    {
+      "p": "305/441",
+      "a_star_over_d_exponent": "11/147",
+      "a_star_over_a_t_exponent": "-10/147",
+      "unmodified_a_ch_over_a_t_exponent": "-20/1323",
+      "current_proxy_at_a_t_exponent": "-10/441",
+      "normalized_fluctuation_at_a_star_exponent": "-239/882"
+    },
+    {
+      "p": "34/49",
+      "a_star_over_d_exponent": "4/49",
+      "a_star_over_a_t_exponent": "-3/49",
+      "unmodified_a_ch_over_a_t_exponent": "-2/147",
+      "current_proxy_at_a_t_exponent": "-1/49",
+      "normalized_fluctuation_at_a_star_exponent": "-13/49"
+    },
+    {
+      "p": "307/441",
+      "a_star_over_d_exponent": "13/147",
+      "a_star_over_a_t_exponent": "-8/147",
+      "unmodified_a_ch_over_a_t_exponent": "-16/1323",
+      "current_proxy_at_a_t_exponent": "-8/441",
+      "normalized_fluctuation_at_a_star_exponent": "-229/882"
+    },
+    {
+      "p": "44/63",
+      "a_star_over_d_exponent": "2/21",
+      "a_star_over_a_t_exponent": "-1/21",
+      "unmodified_a_ch_over_a_t_exponent": "-2/189",
+      "current_proxy_at_a_t_exponent": "-1/63",
+      "normalized_fluctuation_at_a_star_exponent": "-16/63"
+    },
+    {
+      "p": "103/147",
+      "a_star_over_d_exponent": "5/49",
+      "a_star_over_a_t_exponent": "-2/49",
+      "unmodified_a_ch_over_a_t_exponent": "-4/441",
+      "current_proxy_at_a_t_exponent": "-2/147",
+      "normalized_fluctuation_at_a_star_exponent": "-73/294"
+    },
+    {
+      "p": "310/441",
+      "a_star_over_d_exponent": "16/147",
+      "a_star_over_a_t_exponent": "-5/147",
+      "unmodified_a_ch_over_a_t_exponent": "-10/1323",
+      "current_proxy_at_a_t_exponent": "-5/441",
+      "normalized_fluctuation_at_a_star_exponent": "-107/441"
+    },
+    {
+      "p": "311/441",
+      "a_star_over_d_exponent": "17/147",
+      "a_star_over_a_t_exponent": "-4/147",
+      "unmodified_a_ch_over_a_t_exponent": "-8/1323",
+      "current_proxy_at_a_t_exponent": "-4/441",
+      "normalized_fluctuation_at_a_star_exponent": "-209/882"
+    },
+    {
+      "p": "104/147",
+      "a_star_over_d_exponent": "6/49",
+      "a_star_over_a_t_exponent": "-1/49",
+      "unmodified_a_ch_over_a_t_exponent": "-2/441",
+      "current_proxy_at_a_t_exponent": "-1/147",
+      "normalized_fluctuation_at_a_star_exponent": "-34/147"
+    },
+    {
+      "p": "313/441",
+      "a_star_over_d_exponent": "19/147",
+      "a_star_over_a_t_exponent": "-2/147",
+      "unmodified_a_ch_over_a_t_exponent": "-4/1323",
+      "current_proxy_at_a_t_exponent": "-2/441",
+      "normalized_fluctuation_at_a_star_exponent": "-199/882"
+    },
+    {
+      "p": "314/441",
+      "a_star_over_d_exponent": "20/147",
+      "a_star_over_a_t_exponent": "-1/147",
+      "unmodified_a_ch_over_a_t_exponent": "-2/1323",
+      "current_proxy_at_a_t_exponent": "-1/441",
+      "normalized_fluctuation_at_a_star_exponent": "-97/441"
+    }
+  ],
+  "outside_and_boundary_controls": [
+    {
+      "p": "3/5",
+      "a_star_over_d_exponent": "-1/5",
+      "a_star_over_a_t_exponent": "-12/35",
+      "unmodified_a_ch_over_a_t_exponent": "-8/105",
+      "current_proxy_at_a_t_exponent": "-4/35",
+      "normalized_fluctuation_at_a_star_exponent": "-1/2"
+    },
+    {
+      "p": "2/3",
+      "a_star_over_d_exponent": "0",
+      "a_star_over_a_t_exponent": "-1/7",
+      "unmodified_a_ch_over_a_t_exponent": "-2/63",
+      "current_proxy_at_a_t_exponent": "-1/21",
+      "normalized_fluctuation_at_a_star_exponent": "-1/3"
+    },
+    {
+      "p": "5/7",
+      "a_star_over_d_exponent": "1/7",
+      "a_star_over_a_t_exponent": "0",
+      "unmodified_a_ch_over_a_t_exponent": "0",
+      "current_proxy_at_a_t_exponent": "0",
+      "normalized_fluctuation_at_a_star_exponent": "-3/14"
+    },
+    {
+      "p": "3/4",
+      "a_star_over_d_exponent": "1/4",
+      "a_star_over_a_t_exponent": "3/28",
+      "unmodified_a_ch_over_a_t_exponent": "1/42",
+      "current_proxy_at_a_t_exponent": "1/28",
+      "normalized_fluctuation_at_a_star_exponent": "-1/8"
+    }
+  ],
+  "finite_scale_separation_controls": [
+    {
+      "log10_R": 6,
+      "window_upper_over_lower": 1.93069772888325,
+      "largest_equal_magnetization_margins": 1.3894954943731377,
+      "midpoint_a_star_over_d": 2.6826957952797255,
+      "midpoint_a_t_over_a_star": 2.6826957952797255,
+      "midpoint_original_a_ch_over_a_t": 0.8030857221391514
+    },
+    {
+      "log10_R": 9,
+      "window_upper_over_lower": 2.6826957952797255,
+      "largest_equal_magnetization_margins": 1.637893706954064,
+      "midpoint_a_star_over_d": 4.393970560760792,
+      "midpoint_a_t_over_a_star": 4.393970560760792,
+      "midpoint_original_a_ch_over_a_t": 0.719685673001152
+    },
+    {
+      "log10_R": 12,
+      "window_upper_over_lower": 3.72759372031494,
+      "largest_equal_magnetization_margins": 1.93069772888325,
+      "midpoint_a_star_over_d": 7.196856730011519,
+      "midpoint_a_t_over_a_star": 7.196856730011519,
+      "midpoint_original_a_ch_over_a_t": 0.6449466771037624
+    },
+    {
+      "log10_R": 18,
+      "window_upper_over_lower": 7.196856730011519,
+      "largest_equal_magnetization_margins": 2.6826957952797255,
+      "midpoint_a_star_over_d": 19.306977288832506,
+      "midpoint_a_t_over_a_star": 19.306977288832506,
+      "midpoint_original_a_ch_over_a_t": 0.5179474679231212
+    },
+    {
+      "log10_R": 21,
+      "window_upper_over_lower": 10.0,
+      "largest_equal_magnetization_margins": 3.1622776601683795,
+      "midpoint_a_star_over_d": 31.622776601683793,
+      "midpoint_a_t_over_a_star": 31.622776601683793,
+      "midpoint_original_a_ch_over_a_t": 0.4641588833612779
+    },
+    {
+      "log10_R": 42,
+      "window_upper_over_lower": 100.0,
+      "largest_equal_magnetization_margins": 10.0,
+      "midpoint_a_star_over_d": 1000.0,
+      "midpoint_a_t_over_a_star": 1000.0,
+      "midpoint_original_a_ch_over_a_t": 0.2154434690031884
+    },
+    {
+      "log10_R": 84,
+      "window_upper_over_lower": 10000.0,
+      "largest_equal_magnetization_margins": 100.0,
+      "midpoint_a_star_over_d": 1000000.0,
+      "midpoint_a_t_over_a_star": 1000000.0,
+      "midpoint_original_a_ch_over_a_t": 0.046415888336127795
+    },
+    {
+      "log10_R": 126,
+      "window_upper_over_lower": 1000000.0,
+      "largest_equal_magnetization_margins": 1000.0,
+      "midpoint_a_star_over_d": 1000000000.0,
+      "midpoint_a_t_over_a_star": 1000000000.0,
+      "midpoint_original_a_ch_over_a_t": 0.01
+    }
+  ],
+  "mode_fit_controls": [
+    {
+      "n": 1,
+      "a_over_d": 10.0,
+      "kmax_a": 0.1,
+      "eddy_length_over_a": 100.0,
+      "kmax_eddy_length": 10.0,
+      "relative_identity_error": 0.0
+    },
+    {
+      "n": 1,
+      "a_over_d": 1000.0,
+      "kmax_a": 0.001,
+      "eddy_length_over_a": 1000000.0,
+      "kmax_eddy_length": 1000.0,
+      "relative_identity_error": 0.0
+    },
+    {
+      "n": 1,
+      "a_over_d": 1000000.0,
+      "kmax_a": 1e-06,
+      "eddy_length_over_a": 1000000000000.0,
+      "kmax_eddy_length": 1000000.0,
+      "relative_identity_error": 0.0
+    },
+    {
+      "n": 2,
+      "a_over_d": 10.0,
+      "kmax_a": 0.31622776601683794,
+      "eddy_length_over_a": 31.622776601683793,
+      "kmax_eddy_length": 10.0,
+      "relative_identity_error": 0.0
+    },
+    {
+      "n": 2,
+      "a_over_d": 1000.0,
+      "kmax_a": 0.03162277660168379,
+      "eddy_length_over_a": 31622.776601683792,
+      "kmax_eddy_length": 999.9999999999999,
+      "relative_identity_error": 1.1102230246251565e-16
+    },
+    {
+      "n": 2,
+      "a_over_d": 1000000.0,
+      "kmax_a": 0.001,
+      "eddy_length_over_a": 1000000000.0,
+      "kmax_eddy_length": 1000000.0,
+      "relative_identity_error": 0.0
+    }
+  ],
+  "Harris_constant_current_proxy_control": [
+    0.010000000000000009,
+    0.01000000000000001,
+    0.010000000000000009
+  ],
+  "strong_margin_condition": "Both sigma_tilde/R^(2/3)>K and R^(5/7)/sigma_tilde>K require R>K^42.",
+  "conditional_exact_current_prefactor": "If n=n0 is each-species density, physical Ampere current divided by2n0ec has squared ratio equal to one-half the source proxy. This changes order-one thresholds, not powers. Density/normalization conventions must be fixed before treating it as an exact correction.",
+  "limits": [
+    "No claim that the formal asymptotic family is realized in a pulsar wind nebula or any other measured source.",
+    "No spectrum, heating or field evolution is predicted after the nonrelativistic bulk-current description fails.",
+    "No hidden equality relating guide magnetization, fluctuation amplitude, density, temperature and system size was supplied by the source or inferred from this program."
+  ]
+}

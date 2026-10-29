@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "environment": {
+    "python": "3.13.7",
+    "standard_library_only": true
+  },
+  "verifier_SHA256": "e2616ce1f0bb3a732b3cd6b76762f38a91396f3d52ddaf9a02d73647599160b8",
+  "producer_imported_or_executed": false,
+  "exact_finite_cases_independently_derived": 144,
+  "equality_cases": 24,
+  "formal_witnesses": 3,
+  "trajectory_cases": 3,
+  "fixed_magnetization_cases": 8,
+  "profile_cases": 2,
+  "regime_counts": {
+    "Harris_tearing_first_no_post_tearing_crossing": 32,
+    "coincident_initial_thresholds_no_scale_separation": 16,
+    "initial_charge_crossing_before_tearing_onset": 48,
+    "localized_tearing_first_secondary_crossing_below_d": 32,
+    "localized_tearing_first_secondary_crossing_at_d": 8,
+    "localized_tearing_first_secondary_crossing_above_d": 8
+  },
+  "PNG_dimensions": {
+    "phase-domains.png": [
+      1980,
+      1177
+    ],
+    "current-demand-trajectories.png": [
+      1980,
+      1089
+    ]
+  },
+  "producer_artifact_manifest_matches": true,
+  "all_reviewed_input_bytes_unchanged": true,
+  "bound_SHA256": {
+    "reproduction/run_audit.py": "92fc6316142e9ee23d42be337ac57c2b9443f91a6e7bed9c97444a91e8330953",
+    "data/finite-domain-cases.csv": "45656c49a4e528966b2ea9a6e7b6f8868a5d4ef586ab0ce01863fd388e682936",
+    "data/formal-witnesses.csv": "cb5be57297a82a48b10c137354865335ea56985af5b2a67958275fd133a7f1ba",
+    "data/independent-portability.json": "8060f4facfaa09afc6c4ad94f11b32c09a20d961b9b2b545bf989403d43870eb",
+    "data/producer-reproducibility.json": "1e16d09aa21466320fe45d5371b8f4bcc2c92d14626c485182c7b716019c37d1",
+    "data/producer-results.json": "3eb86f0299c16091b0079019ca5375c4e09ced9396128a80132e0763b7035288",
+    "data/producer-source-locators.json": "9313f8f695cc9df7594e48890f5e3a4595cc7012218471b7a845c3260685f60a",
+    "data/profile-exponents.csv": "9c740c37f3773b529af819a51097f5320facaac4e6c41e83ead284490b57a83b",
+    "data/trajectory-cases.csv": "b70d377446a49ab5381f3877e238d32e0f1715f04cc2edeac06bf9d2a4c75c5c",
+    "data/transition-cases.csv": "306a29528e17c7d8823817f44b0ae4c53d602634d107904f3e7631ecafb55201",
+    "figures/current-demand-trajectories.png": "7b6e126f4104fcd4f6545ba498f4a4405f8a2089d329fae4f03348cad550f878",
+    "figures/phase-domains.png": "169ac89d274d98190815985b67670f6d99a68a30ea9b68cc268cd99ae1b1566d"
+  },
+  "limits": "Exact algebra and file-integrity controls only. Visual and source-scope assessment are recorded separately; no physical calibration or post-threshold prediction is certified."
+}
